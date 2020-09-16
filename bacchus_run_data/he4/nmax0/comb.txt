@@ -1,0 +1,129 @@
+
+*** mp-states ***
+
+ Ep  Mp   En  Mn      #mp-p    #mp-n       #mp
+
+  0   0    0   0          1        1         1  # ARRAYMP:   1=       8
+
+TOTAL-MP-STATES: 1
+MAX-MP-BLOCK: 1
+
+*** Connections p-n ***
+
+Ep1 Mp1   En1 Mn1   Dp1   Ep2 Mp2   En2 Mn2   Dn1       #mp1     #mp2   #conn-p  #conn-n          conn
+
+  0   0     0   0     0     0   0     0   0     0          1        1         2        2             4  # CALCBLOCK:2:   1,   1,     2,     3,     4
+
+CONNECTIONS-p-n: 4
+
+
+*** Connections pp-n ***
+
+Ep1 Mp1   En1 Mn1   Dp1   Ep2 Mp2   En2 Mn2   Dn1       #mp1     #mp2  #conn-pp  #conn-n          conn
+
+  0   0     0   0     0     0   0     0   0     0          1        1         1        2             2  # CALCBLOCK:3:   1,   1,     5,     3,     6
+
+CONNECTIONS-pp-n: 2
+
+
+*** Connections p-nn ***
+
+Ep1 Mp1   En1 Mn1   Dp1   Ep2 Mp2   En2 Mn2   Dn1       #mp1     #mp2   #conn-p #conn-nn          conn
+
+  0   0     0   0     0     0   0     0   0     0          1        1         2        1             2  # CALCBLOCK:3:   1,   1,     2,     7,     8
+
+CONNECTIONS-p-nn: 2
+
+
+*** Connections dia-p ***
+
+Ep1 Mp1   Ep2 Mp2    En  Mn   D-p       #mp1   #conn-p    #mp-n          conn
+
+  0   0     0   0     0   0     0       1         2        1             2  # CALCBLOCK:1:   1,   1,     2,     9
+
+CONNECTIONS-DIA-p: 2
+
+
+*** Connections dia-n ***
+
+Ep1 Mp1   Ep2 Mp2    En  Mn   D-n       #mp1   #conn-n    #mp-p          conn
+
+  0   0     0   0     0   0     0       1         2        1             2  # CALCBLOCK:1:   1,   1,     3,    10
+
+CONNECTIONS-DIA-n: 2
+
+
+*** Connections dia-pp ***
+
+Ep1 Mp1   Ep2 Mp2    En  Mn   D-pp       #mp1  #conn-pp    #mp-n          conn
+
+  0   0     0   0     0   0     0       1         1        1             1  # CALCBLOCK:2:   1,   1,     5,    11
+
+CONNECTIONS-DIA-pp: 1
+
+
+*** Connections dia-nn ***
+
+Ep1 Mp1   Ep2 Mp2    En  Mn   D-nn       #mp1  #conn-nn    #mp-p          conn
+
+  0   0     0   0     0   0     0       1         1        1             1  # CALCBLOCK:2:   1,   1,     7,    12
+
+CONNECTIONS-DIA-nn: 1
+
+
+SUM-CONN-LEN-1N: 4
+MAX-CONN-LEN-1N: 2
+LOAD-CONN-LEN-1N: 4
+SUM-CONN-LEN-2N: 6
+MAX-CONN-LEN-2N: 2
+LOAD-CONN-LEN-2N: 10
+SUM-CONN-LEN-3N: 6
+MAX-CONN-LEN-3N: 2
+LOAD-CONN-LEN-3N: 16
+
+
+*** Conn lists ***
+
+type  E1  M1   E2  M2   D1         len
+
+n      0   0    0   0    0           2  # ARRAY:     3=        24
+nn     0   0    0   0    0           1  # ARRAY:     7=        12
+p      0   0    0   0    0           2  # ARRAY:     2=        24
+pp     0   0    0   0    0           1  # ARRAY:     5=        12
+
+*** Matrix-elements V (cross p-n) ***
+
+prt dEp dMp   Dp   prt dEn dMn   Dn    #comb-p  #comb-n         #comb
+
+p     0   0    0   n     0   0    0          2        2             4  # ARRAY:     4=          32
+p     0   0    0   nn    0   0    0          2        1             2  # ARRAY:     8=          16
+pp    0   0    0   n     0   0    0          1        2             2  # ARRAY:     6=          16
+
+*** Matrix-elements V (same p/n) ***
+
+prt dEx dMx   Dx    #comb-x         #comb
+
+n     0   0    0          2             2  # ARRAY:    10=          16
+nn    0   0    0          1             1  # ARRAY:    12=           8
+p     0   0    0          2             2  # ARRAY:     9=          16
+pp    0   0    0          1             1  # ARRAY:    11=           8
+
+SUM-Vc-SIZE-1N: 0
+MAX-Vc-SIZE-1N: 0
+LOAD-Vc-SIZE-1N: 0
+SUM-Vx-SIZE-1N: 4
+MAX-Vx-SIZE-1N: 2
+LOAD-Vx-SIZE-1N: 4
+SUM-Vc-SIZE-2N: 4
+MAX-Vc-SIZE-2N: 4
+LOAD-Vc-SIZE-2N: 4
+SUM-Vx-SIZE-2N: 2
+MAX-Vx-SIZE-2N: 1
+LOAD-Vx-SIZE-2N: 2
+SUM-Vc-SIZE-3N: 4
+MAX-Vc-SIZE-3N: 2
+LOAD-Vc-SIZE-3N: 4
+SUM-Vx-SIZE-3N: 0
+MAX-Vx-SIZE-3N: 0
+LOAD-Vx-SIZE-3N: 0
+

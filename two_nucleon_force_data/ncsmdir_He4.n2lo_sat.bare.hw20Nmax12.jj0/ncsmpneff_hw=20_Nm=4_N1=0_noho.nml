@@ -1,0 +1,11 @@
+&NCSMEFF_INPUT
+iprotons = 2 
+neutrons = 2 
+hbo = 20 
+mxeng = 4 
+delta_N1 = 0 
+icutnum = 999 
+read_NNpotdescription = "n2lo_sat" 
+ec = .true. 
+noho=.true.
+/ 

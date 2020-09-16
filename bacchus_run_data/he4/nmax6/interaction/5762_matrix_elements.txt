@@ -1,0 +1,5 @@
+(0): 0.000000 
+(1): 0.000000 
+(2): 0.000000 
+(3): 0.000000 
+There are 32 bytes of which 32 can be displayed as double
