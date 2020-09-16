@@ -1,0 +1,52 @@
+=====Header=====
+num particles: 2
+dir: n2lo_sat_2nf_hw20_Nmax2_noho
+Nmax: 2
+dim: 216
+	E1	E2	Tz	M	conf_file	elem_file
+	2	2	-2	-6	conf_1		elem_1
+	1	1	-2	-4	conf_2		elem_2
+	2	2	-2	-4	conf_3		elem_3
+	1	1	-2	-2	conf_4		elem_4
+	2	2	-2	-2	conf_5		elem_5
+	0	0	-2	0	conf_6		elem_6
+	0	2	-2	0	conf_7		elem_7
+	1	1	-2	0	conf_8		elem_8
+	2	2	-2	0	conf_9		elem_9
+	1	1	-2	2	conf_10		elem_10
+	2	2	-2	2	conf_11		elem_11
+	1	1	-2	4	conf_12		elem_12
+	2	2	-2	4	conf_13		elem_13
+	2	2	-2	6	conf_14		elem_14
+	2	2	0	-6	conf_15		elem_15
+	1	1	0	-4	conf_16		elem_16
+	2	2	0	-4	conf_17		elem_17
+	0	0	0	-2	conf_18		elem_18
+	0	2	0	-2	conf_19		elem_19
+	1	1	0	-2	conf_20		elem_20
+	2	2	0	-2	conf_21		elem_21
+	0	0	0	0	conf_22		elem_22
+	0	2	0	0	conf_23		elem_23
+	1	1	0	0	conf_24		elem_24
+	2	2	0	0	conf_25		elem_25
+	0	0	0	2	conf_26		elem_26
+	0	2	0	2	conf_27		elem_27
+	1	1	0	2	conf_28		elem_28
+	2	2	0	2	conf_29		elem_29
+	1	1	0	4	conf_30		elem_30
+	2	2	0	4	conf_31		elem_31
+	2	2	0	6	conf_32		elem_32
+	2	2	2	-6	conf_33		elem_33
+	1	1	2	-4	conf_34		elem_34
+	2	2	2	-4	conf_35		elem_35
+	1	1	2	-2	conf_36		elem_36
+	2	2	2	-2	conf_37		elem_37
+	0	0	2	0	conf_38		elem_38
+	0	2	2	0	conf_39		elem_39
+	1	1	2	0	conf_40		elem_40
+	2	2	2	0	conf_41		elem_41
+	1	1	2	2	conf_42		elem_42
+	2	2	2	2	conf_43		elem_43
+	1	1	2	4	conf_44		elem_44
+	2	2	2	4	conf_45		elem_45
+	2	2	2	6	conf_46		elem_46
